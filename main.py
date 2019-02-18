@@ -6,7 +6,7 @@ import util as plot
 
 def For_Iris(features,No_Component=2):
 
-    data = pd.read_csv("Iris.csv", header = 0)
+    data = pd.read_csv("Data/Iris.csv", header = 0)
     data = data.reset_index()
 
 
@@ -14,7 +14,7 @@ def For_Iris(features,No_Component=2):
     #For one feature
     if (features==1):
 
-        col='SepalWidthCm'
+        col='PetalWidthCm'
         x=data[[col]]
         x=np.array(x)
         gmm = GaussianMixModel(x,No_Component)
@@ -34,7 +34,7 @@ def For_Iris(features,No_Component=2):
         plot.plot_2D(gmm,x,col,label)
 
 def For_Glass(No_Component=2):
-    data = pd.read_csv("glass.csv", header = 0)
+    data = pd.read_csv("Data/glass.csv", header = 0)
     col='Fe'
     x=data[[col]]
     x=np.array(x)
