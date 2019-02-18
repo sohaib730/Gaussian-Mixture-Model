@@ -16,9 +16,9 @@ In our experiments we considered two data sets:
 
 
 1. Results for Iris Dataset
-First for each feature in iris dataset, Gaussian mixture models (GMM) parameters are estimated by using two or three GMM components. The Number of components in GMM are determined by visualizing respective featureÕs histogram.
+First for each feature in iris dataset, Gaussian mixture models (GMM) parameters are estimated by using two or three GMM components. The Number of components in GMM are determined by visualizing respective feature's histogram.
 
-
+![]Figures/Iris/Figure_1.png
 
 
 
