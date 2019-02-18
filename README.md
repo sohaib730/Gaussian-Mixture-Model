@@ -12,10 +12,11 @@ Modify main.py, if number of components of GMM or particular feature in dataset 
 
 
 For our experiments we considered two data sets:
-1. Iris
-2. Glass Classification Dataset
-
-1. Results for Iris Dataset:
+ 1. Iris
+ 2. Glass Classification Dataset
+	
+	
+# 1. GMM Density Estimation of Iris Dataset:
 First for each feature in Iris dataset, Gaussian mixture models (GMM) parameters are estimated by using two or three GMM components. The Number of components in GMM are determined by visualizing respective feature's histogram. usually for this dataset features, two components were enough.
 
 ![](Figures/Iris/Figure_1.png)
@@ -34,7 +35,7 @@ GMM can properly learn the distribution with only two components.
 ![](Figures/Iris/Figure_14.png)
 ![](Figures/Iris/Figure_15.png)
 
-2. Results of Glass Classification Dataset:
+# 2. GMM Density Estimation of Glass Classification Dataset:
 This dataset contains eight features. Following results are the density estimation of each feature using GMM. Different number of components of GMM are used for each feature, determined by visualizing histogram of that feature.
 ![](Figures/Glass/Figure_1.png)
 ![](Figures/Glass/Figure_2.png)
