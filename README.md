@@ -1,13 +1,15 @@
 # Gaussian-Mixture-Model
 Expectation Maximization Algorithm
 
-Gaussian Mixture Models (GMM) are effective for multi model density representation. In this experiment GMM are estimated using Expectation Maximization(EM) algorithm results are shown for two datasets. The GMM algorithm and plotting functions are given in python code.
+Gaussian Mixture Models (GMM) are effective for multi model density representation. In this experiment GMM Parameters are estimated using Expectation Maximization(EM) algorithm results are shown for two datasets. The GMM algorithm and plotting functions are given in python code.
 
 Following are the requirements to run this code:
 Python 3.7.2
 
 To run this code type:
+
 python main.py
+
 Modify main.py, if number of components of GMM or particular feature in dataset needs to be selected.
 
 
