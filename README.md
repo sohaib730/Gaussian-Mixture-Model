@@ -6,7 +6,10 @@ Gaussian Mixture Models (GMM) are effective for multi model density representati
 Following are the requirements to run this code:
 Python 3.7.2
 
-To run this code type: 				python main.py
+To run this code type: 				
+
+python main.py
+
 Modify main.py, if number of components of GMM or particular feature in dataset needs to be selected.
 
 
