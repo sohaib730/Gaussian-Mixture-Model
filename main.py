@@ -1,5 +1,5 @@
 
-# Author -----Sohaib Kiani and Usman Sajid
+# Author -----Sohaib Kiani-----
 import pandas as pd
 from GMM import *
 import util as plot
